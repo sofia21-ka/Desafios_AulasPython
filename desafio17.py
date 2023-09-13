@@ -1,0 +1,7 @@
+print("-"*30)
+print("\t DESAFIO 17")
+print("-"*30)
+id = int (input("Informe idade: "))
+if id<13: print("Você é uma criança")
+elif id>=13 and id<=19: print("Você é um adolescente")
+else: print("Você é um adulto")
